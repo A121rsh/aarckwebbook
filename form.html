@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarckweb Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style type="text/css">
+    /* The rest of the CSS remains the same */
+
+#contact {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation bar code here (same as the previous example) -->
+        </nav>
+        <h1>Aarckweb Book Store</h1>
+    </header>
+    <main>
+        <!-- Books Library Section -->
+        <section id="books-library">
+            <!-- Books library content (same as the previous example) -->
+        </section>
+        <!-- Contact Page Form Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content (same as the previous example) -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
